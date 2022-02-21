@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+            android:id="@+id/doa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <CheckBox
+            android:visibility="gone"
+            android:text="@string/save_choice"
+            android:id="@+id/doa_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

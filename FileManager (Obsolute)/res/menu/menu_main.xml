@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/search"
+            android:title="@string/search"
+            android:icon="@android:drawable/ic_menu_search"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+            android:id="@+id/touch"
+            android:title="@string/create_new_file"
+            android:icon="@drawable/new_file"/>
+
+    <item
+            android:id="@+id/use_su"
+            android:title="@string/enable_su"
+            android:checkable="true"
+            android:icon="@drawable/hash"/>
+
+    <item
+            android:id="@+id/go_to"
+            android:title="@string/go_to_path"
+            android:icon="@drawable/go_to"/>
+
+    <!-- TODO: move this menu to MA's Navigation Drawer and set it enabled. -->
+
+</menu>

@@ -1,0 +1,69 @@
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string> <!-- TODO: delete Nav. Drawer strings. -->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="empty">Empty</string>
+    <string name="text">Text</string>
+    <string name="save">Save</string>
+    <string name="choose_app">Choose app to open file:</string>
+    <string name="access_tip">Access denied</string>
+    <string name="loading">Loading…</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+    <string name="delete">Delete</string>
+    <string name="errDelete">Error while deleting file</string>
+    <string name="errCopyMove">Error while coping/moving the file</string>
+    <string name="errCloneAlrd">This file is alredy here</string>
+    <string name="confPath">Choose path where the file/files should be in</string>
+    <string name="create_new_file">Create new file</string>
+    <string name="fileOrFolder">What do you want to create?</string>
+    <string name="ok">OK</string>
+    <string name="fname">Enter file name</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="access_denied">Access denied</string>
+    <string name="errNwFile">Error while creating a file</string>
+    <string name="noSearchRes">No results have been found</string>
+    <string name="stop_searching">Stop searching</string>
+    <string name="save_choice">Save choice</string>
+    <string name="share">Share</string>
+    <string name="enable_su">Enable root [BETA]</string>
+    <string name="text_label">Text Editor</string>
+    <string name="img_label">Image Viewer</string>
+    <string name="go_to_path">Go to path</string>
+    <string name="enter_path">Enter path</string>
+    <string name="folderExistsTip">The given folder doesn\'t exists or access denied!</string>
+    <string name="rename">Rename</string>
+    <string name="newNameTip">Enter new name</string>
+    <string name="errRead">Can\'t read file</string>
+    <string name="showFullName">Show full name</string>
+    <string name="copiedText">Copied Text</string>
+    <string name="clipboardTip">Copied to clipboard</string>
+    <string name="chmodTip">Change permissions</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="execute">Execute</string>
+    <string name="owner">Owner:</string>
+    <string name="group">Group:</string>
+    <string name="anyone">Anyone:</string>
+    <string name="done">Done</string>
+    <string name="restore">Restore</string>
+    <string name="emptyTip">Text fiels must not be empty!</string>
+    <string name="extractArchive">Extract archive</string>
+    <string name="archivePathTip">Enter destination folder</string>
+</resources>

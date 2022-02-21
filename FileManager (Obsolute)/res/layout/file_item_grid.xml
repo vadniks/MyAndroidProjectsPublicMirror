@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_width="50dp"
+            tools:layout_height="50dp"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/item_name"
+            tools:text="Details"
+            android:textSize="18sp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

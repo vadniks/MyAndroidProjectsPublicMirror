@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/ed_save"
+            android:title="@string/save"
+            android:icon="@drawable/save"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/text_share"
+            android:title="@string/share"
+            android:icon="@android:drawable/ic_menu_share"
+            app:showAsAction="ifRoom"/>
+
+</menu>
