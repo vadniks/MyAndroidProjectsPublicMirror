@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adUnitId"></string>
+
+    <string name="app_name">Flashlight</string>
+    <string name="lightOn">light on</string>
+    <string name="lightOff">light off</string>
+    <string name="lightScreen">light screen</string>
+    <string name="notifAction">FLASH ON/OFF</string>
+    <string name="notifAction2">LIGHT SCREEN ON/OFF</string>
+    <string name="notifTitle">Flashlight is activated</string>
+
+    <string name="title_activity_light">LightActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="notifText">Tap to deactivate the flashlight</string>
+    <!-- RCCM - Remote Camera Controls Manager/Management -->
+    <string name="RCCMTip">Show the RCCM notification</string>
+    <string name="RCCMTip2">Hide the RCCM notification</string>
+    <string name="RCCMTip3">RCCM has been notified already!</string>
+    <string name="RCCMTip4">Do not show the RCCM notification</string>
+    <string name="FLControls">Flashlight controls</string>
+    <string name="noFetch">Your device doesn\'t have this feature!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>

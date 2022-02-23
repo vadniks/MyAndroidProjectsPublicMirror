@@ -1,0 +1,45 @@
+<!--
+/*
+** Copyright (C) 2018, 2019 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<resources>
+    <string name="adMobAppId"></string>
+    <string name="adUnitId"></string>
+
+    <string name="app_name">QR code reader</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="scan">Scan</string>
+    <string name="generate">Generate</string>
+    <string name="scan_and_generate_qr_codes">Scan and generate QR codes.</string>
+    <string name="done">Done</string>
+    <string name="barcodeError">Could not set up the detector!</string>
+    <string name="ok">OK</string>
+    <string name="barcode_information">Barcode information:</string>
+    <string name="barcodeError2">Can\'t decode the given barcode</string>
+    <string name="barcodeError3">Can\'t detect the given barcode</string>
+    <string name="upload_qr_code">Upload QR code</string>
+    <string name="select_file">Select file:</string>
+    <string name="selectError">File must be an image! (.png or .jpeg)</string>
+    <string name="flash">Flash</string>
+    <string name="copy">Copy</string>
+    <string name="copied_text">Copied text</string>
+    <string name="message">Message</string>
+    <string name="third_party">Third party</string>
+    <string name="inCorDoF">Incorrect data or barcode format.</string>
+    <string name="genFinal1">The barcode image is located in</string>
+    <string name="genFinal2">/QR Code Reader/</string>
+    <string name="processing">Processing…</string>
+    <string name="share">Share</string>
+    <string name="optMError">You haven\'t generated barcode!</string>
+    <string name="genB">Generate barcode</string>
+    <string name="flashE">Your device doesn\'t have this feature!</string>
+    <string name="error">An error has occurred!</string>
+    <string name="permErroe">Without these permissions this app can\'t work. Please grant all permissions.</string>
+</resources>

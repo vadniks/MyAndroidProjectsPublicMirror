@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/widget_margin"
+        android:background="#78909c">
+
+    <TextView
+            android:id="@+id/appwidget_text"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="@string/FLControls"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="#78909c"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+    <Button
+            android:layout_marginTop="35dp"
+            android:id="@+id/widget_bt_flash"
+            android:text="@string/notifAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/widget_bt_screen"
+            android:text="@string/lightScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
