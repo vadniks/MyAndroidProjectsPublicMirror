@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/theme"
+        android:title="@string/change_theme"
+        android:id="@+id/menu_main_change_theme"/>
+
+    <item
+        android:icon="@drawable/cloud"
+        android:title="@string/drive_operations"
+        android:id="@+id/menu_main_drive"/>
+
+    <item
+        android:icon="@drawable/buy"
+        android:title="@string/buy_pro_features"
+        android:id="@+id/menu_main_buy"/>
+
+    <item
+        android:icon="@drawable/about"
+        android:title="@string/about"
+        android:id="@+id/menu_main_about"/>
+
+    <item
+        android:icon="@drawable/cog"
+        android:title="@string/debug_actions"
+        android:id="@+id/menu_main_debug"/>
+
+    <item
+        android:icon="@drawable/export"
+        android:title="@string/database_export_import"
+        android:id="@+id/menu_main_export_db"/>
+
+    <item android:title="@string/database_encryption">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/encrypt"
+                    android:title="@string/database_encryption"
+                    android:id="@+id/menu_main_db_encrypt"/>
+
+                <item
+                    android:icon="@drawable/remember"
+                    android:title="@string/remember_password"
+                    android:id="@+id/menu_main_remember_password"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

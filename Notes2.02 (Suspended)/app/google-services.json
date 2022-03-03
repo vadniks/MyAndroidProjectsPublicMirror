@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "",
+    "firebase_url": "",
+    "project_id": "",
+    "storage_bucket": ""
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "",
+        "android_client_info": {
+          "package_name": ""
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "",
+          "client_type": _
+        },
+        {
+          "client_id": "",
+          "client_type": _
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": _
+        },
+        "appinvite_service": {
+          "status": _,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": _
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

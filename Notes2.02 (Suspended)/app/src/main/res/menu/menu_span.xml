@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/colored"
+        android:id="@+id/menu_span_color"
+        android:title="@string/color"/>
+
+    <item android:title="@string/select_style">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/regular_font"
+                    android:id="@+id/menu_span_normal"
+                    android:title="@string/normal"/>
+
+                <item
+                    android:icon="@drawable/italic"
+                    android:id="@+id/menu_span_italic"
+                    android:title="@string/italic"/>
+
+                <item
+                    android:icon="@drawable/bold_font"
+                    android:id="@+id/menu_span_bold"
+                    android:title="@string/bold"/>
+
+                <item
+                    android:icon="@drawable/bold_italic_font"
+                    android:id="@+id/menu_span_bold_italic"
+                    android:title="@string/bold_italic"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

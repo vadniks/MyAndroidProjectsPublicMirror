@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_activity_main">Notes</string>
+    <string name="EASTER_EGG"></string>
+    <string name="empty">Empty</string>
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+    <string name="adUnitId"></string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="editor_actions">Editor actions</string>
+    <string name="orange">Orange</string>
+    <string name="color">Set color</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="grey">Grey</string>
+    <string name="search">Search</string>
+    <string name="noSearchedNote">There\'s no such note!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="non_future">Target set as non-future!</string>
+    <string name="set_reminder">Set reminder</string>
+    <string name="attach_to_taskbar">Attach to taskbar</string>
+    <string name="set_timed_reminder">Set timed reminder</string>
+    <string name="schedule_notifications">Schedule notifications</string>
+    <string name="other_actions">Other actions</string>
+    <string name="noteNotFound">The requested note wasn\'t found</string>
+    <string name="noteNotPureUsual">This note is set in reminder or in widget. Dismiss them first</string>
+    <string name="force_remove_notification_widget_flags">Force remove notification/widget flags</string>
+    <string name="warning">Warning:</string>
+    <string name="cancel">Cancel</string>
+    <string name="removeFlags">Remove flags</string>
+    <string name="removeNWFlagsWarn">
+        Removing notification/widget flags should be done only if there are some problems with notifications or widgets,
+        for example: unavailable to delete the note that was set in notification that was dismissed, etc.
+        If there aren\'t such problems, doing this action is strongly not recommended,
+        otherwise the attached notification wont dismiss.
+        Are you sure?
+    </string>
+    <string name="noteExists">The note with this title already exists!</string>
+    <string name="common_actions">Common actions</string>
+    <string name="force_dismiss_all_attached">Force dismiss all attached</string>
+    <string name="force_dismiss_all_scheduled">Force dismiss all scheduled</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="set_text_color">Set text\'s color/style</string>
+    <string name="select_style">Select style</string>
+    <string name="italic">Italic</string>
+    <string name="bold">Bold</string>
+    <string name="bold_italic">Bold-italic</string>
+    <string name="normal">Regular</string>
+    <string name="noSelection">Text doesn\'t have selection</string>
+    <string name="select_color">Select color</string>
+    <string name="reset">Reset</string>
+    <string name="reset_notifications_widgets">Reset notifications/widgets</string>
+    <string name="type_8_length_password">Type a 8 length password</string>
+    <string name="database_is_encrypted">Database is encrypted</string>
+    <string name="ecryption_failed">Encryption/decryption failed</string>
+    <string name="database_encryption">Database encryption</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="encrypting_in_progress">Encrypting/decrypting in progress…</string>
+    <string name="wrong_password">Wrong password!</string>
+    <string name="password">Password</string>
+    <string name="db_needs_decryption">Database is needed to be decrypted. Please launch app</string>
+    <string name="show_full_name">Show full name</string>
+    <string name="db_empty">Database is empty</string>
+    <string name="error_uploading_db">Error while uploading database</string>
+    <string name="drive_operations">Drive operations</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="database_created_alrd">Database is already created!</string>
+    <string name="no_database">Database doesn\'t exist</string>
+    <string name="drive_error">Error while performing drive operation</string>
+    <string name="successful">Successful</string>
+    <string name="non_resemblance_1">Database in drive is encrypted, please encrypt the local database first</string>
+    <string name="non_resemblance_2">Database in drive is unencrypted, please decrypt the local database first</string>
+    <string name="processing">Processing…</string>
+    <string name="encrypt_database_first">Encrypt database first</string>
+    <string name="key_deleted">Key deleted</string>
+    <string name="key_saved">Key saved</string>
+    <string name="remember_password">Remember password</string>
+    <string name="note_doesnt_exist">This note doesn\'t exist!</string>
+    <string name="audio_note">Audio note</string>
+    <string name="record">Record</string>
+    <string name="start_record">Start record</string>
+    <string name="stop_record">Stop record</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop_playing">Stop playing</string>
+    <string name="stop">Stop</string>
+    <string name="no_such_audio_file">There\'s no such audio file</string>
+    <string name="err_starting_recording">Error while starting recording</string>
+    <string name="max_audio_duration">Max audio duration has been reached, stopping…</string>
+    <string name="err_stopping_recording">Error while stopping recording</string>
+    <string name="err_initiating_recording">Error while initiating recording</string>
+    <string name="err_starting_playing">Error while starting playing</string>
+    <string name="err_initiating_playing">Error while initiating playing</string>
+    <string name="need_additional_permissions">This feature requires additional permissions</string>
+    <string name="force_remove_audios">Force remove audios</string>
+    <string name="debug_actions">Debug actions</string>
+    <string name="options">Options</string>
+    <string name="no_save_tooltip">Title field is empty or this note already exists</string>
+    <string name="err_load_image">Error while loading image</string>
+    <string name="colors">Colors</string>
+    <string name="brush_size_">Brush size:</string>
+    <string name="color_">Color:</string>
+    <string name="eraser">Eraser</string>
+    <string name="choose_one_item">Choose one item</string>
+    <string name="send">Send</string>
+    <string name="select_text_note">Select text note</string>
+    <string name="sku_all">All features (except disabling ads)</string>
+    <string name="buy_pro_features">Buy pro features</string>
+    <string name="disable_ads">Disable ads</string>
+    <string name="no_pendings">Pending purchases are not supported</string>
+    <string name="purchase_waiting">Purchase is waiting for confirmation</string>
+    <string name="paid_feature">This is paid feature!</string>
+    <string name="force_remove_drawns">Force remove drawns</string>
+    <string name="input">Input</string>
+    <string name="update_needed">Please update to hte newest version</string>
+    <string name="legacy_db_upgrade_encrypted_hint">Leave this field blank if you haven\'t encrypted database</string>
+    <string name="ok">@android:string/ok</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="alrd_pur">Already purchased</string>
+    <string name="err_pur">Error while purchasing</string>
+    <string name="error_code_">Error code </string>
+    <string name="err_init_billing">Error while initiating billing</string>
+    <string name="err_billing_unsupported">Error billing unsupported</string>
+    <string name="about">About</string>
+    <string name="saved">Saved</string>
+    <string name="warn_delete">Delete note?</string>
+    <string name="warn_delete_selected">Delete selected notes?</string>
+    <string name="texts_empty">Text fields are empty!</string>
+    <string name="reset_flags_tip">Reminders won\'t be controllable. Reset flags?</string>
+    <string name="undo">Undo</string>
+    <string name="update_is_needed">Update is needed</string>
+    <string name="save_ask">Save/update?</string>
+    <string name="rems_at_same_time">Don\'t set multiply reminders at the same time. Consider changing minutes</string>
+    <string name="rm_external_data">Remove external data</string>
+    <string name="restore_audios">Restore audios</string>
+    <string name="restore_drawns">Restore drawns</string>
+    <string name="need_these_permissions">This app requires these permissions</string>
+    <string name="database_export_import">Database export/import</string>
+    <string name="export">Export</string>
+    <string name="_import">Import</string>
+    <string name="choose_app">Choose app:</string>
+    <string name="file_not_found">File not found</string>
+    <string name="db_exported_alrd">Database already exported</string>
+    <string name="done">Done</string>
+    <string name="not_dir">Selected file is not a directory</string>
+    <string name="not_file">Selected file is not a file</string>
+    <string name="no_db">Database doesn\'t exist</string>
+    <string name="no_rw_for_file_folder">Read/Write permissions are denied for this file/folder</string>
+    <string name="choose_file">Choose file</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="folder">folder</string>
+    <string name="no_dbs_tip">No database files found in</string>
+    <string name="db_export_tip">fDatabase files will be placed in</string>
+    <string name="del_db">Delete database</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/stubFragment"
+        android:name=".common.FragmentStub"
+        android:label="fragment_stub"
+        tools:layout="@layout/layout_stub">
+
+        <action
+            android:id="@+id/action_stubFragment_to_mainFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            app:popUpTo="@+id/mainFragment"
+            app:destination="@id/mainFragment"/>
+
+        <action
+            android:id="@+id/action_stubFragment_to_editFragment"
+            app:popUpTo="@+id/mainFragment"
+            app:destination="@id/editFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name=".mvp.view.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_editFragment"
+            app:destination="@id/editFragment"/>
+
+        <action
+            android:id="@+id/action_mainFragment_to_stubFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            app:popUpTo="@+id/stubFragment"
+            app:destination="@id/stubFragment"/>
+
+        <action
+            android:id="@+id/action_mainFragment_to_drawFragment"
+            app:destination="@id/drawFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/editFragment"
+        android:name=".mvp.view.fragment.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit">
+
+        <action
+            android:id="@+id/action_editFragment_to_mainFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            app:popUpTo="@+id/mainFragment"
+            app:destination="@id/mainFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/drawFragment"
+        android:name=".mvp.view.fragment.DrawFragment"
+        android:label="fragment_draw"
+        tools:layout="@layout/layout_stub">
+
+        <action
+            android:id="@+id/action_drawFragment_to_mainFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            app:popUpTo="@+id/mainFragment"
+            app:destination="@id/mainFragment"/>
+
+    </fragment>
+
+</navigation>

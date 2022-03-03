@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/debug_actions">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:title="@string/force_dismiss_all_attached"
+                    android:id="@+id/menu_main_debug_f_dism_attached"/>
+
+                <item
+                    android:title="@string/force_dismiss_all_scheduled"
+                    android:id="@+id/menu_main_debug_f_dism_scheduled"/>
+
+                <item
+                    android:title="@string/reset_notifications_widgets"
+                    android:id="@+id/menu_main_debug_reset_reminders"/>
+
+                <item
+                    android:title="@string/force_remove_audios"
+                    android:id="@+id/menu_main_debug_f_remove_audios"/>
+
+                <item
+                    android:title="@string/force_remove_drawns"
+                    android:id="@+id/menu_main_debug_f_remove_drawns"/>
+
+                <item
+                    android:title="@string/restore_audios"
+                    android:id="@+id/menu_main_debug_restore_audios"/>
+
+                <item
+                    android:title="@string/restore_drawns"
+                    android:id="@+id/menu_main_debug_restore_drawns"/>
+
+                <item
+                    android:title="@string/rm_external_data"
+                    android:id="@+id/menu_main_debug_rm_ext_data"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

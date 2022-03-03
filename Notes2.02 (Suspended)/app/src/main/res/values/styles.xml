@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackground">@color/colWhite</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="android:windowBackground">@color/darkThemeBackground</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/darkBackground</item>
+        <item name="materialButtonStyle">@style/DarkButton</item>
+        <item name="colorBackgroundFloating">@color/colorPrimary2</item>
+        <item name="android:colorBackgroundFloating" tools:targetApi="m">@color/colorPrimary2</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+
+    <style name="LauncherAppTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/launcher3</item>
+    </style>
+
+    <style name="DarkButton" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/DarkButtonText</item>
+    </style>
+
+    <style name="DarkButtonText">
+        <item name="colorPrimary">@color/colorAccent2</item>
+        <item name="colorOnPrimary">@color/colorPrimary2</item>
+    </style>
+
+</resources>

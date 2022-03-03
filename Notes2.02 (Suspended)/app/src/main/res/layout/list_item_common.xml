@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="6dip"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            tools:text="Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:lines="1"
+            android:textSize="24sp"
+            android:id="@+id/list_item_common_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            tools:text="Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:lines="1"
+            android:textSize="14sp"
+            android:id="@+id/list_item_common_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.33"
+        android:id="@+id/list_item_common_indicators"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        tools:ignore="NestedWeights">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/list_item_common_indi_widget"
+            android:background="@color/colYellow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/list_item_common_indi_cons"
+            android:background="@color/colGrey"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/list_item_common_indi_rem"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/list_item_common_indi_sch"
+            android:background="@color/colBrown"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/list_item_common_color"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:background="@color/colorAccent"
+        tools:ignore="ContentDescription"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/set_reminder">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/attach"
+                    android:title="@string/attach_to_taskbar"
+                    android:id="@+id/menu_reminder_attach"/>
+
+                <item
+                    android:icon="@drawable/clock"
+                    android:title="@string/set_timed_reminder"
+                    android:id="@+id/menu_reminder_timed"/>
+
+                <item
+                    android:icon="@drawable/calendar"
+                    android:title="@string/schedule_notifications"
+                    android:id="@+id/menu_reminder_sch"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

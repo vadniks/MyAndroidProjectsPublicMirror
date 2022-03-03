@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/editor_actions">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/save"
+                    android:id="@+id/menu_edit_save"
+                    android:title="@string/save"/>
+
+                <item
+                    android:icon="@drawable/delete"
+                    android:id="@+id/menu_edit_delete"
+                    android:title="@string/delete"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="@string/other_actions">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/colored"
+                    android:id="@+id/menu_edit_color"
+                    android:title="@string/color"/>
+
+                <item
+                    android:icon="@drawable/reminder"
+                    android:id="@+id/menu_edit_reminder"
+                    android:title="@string/set_reminder"/>
+
+                <item
+                    android:icon="@drawable/italic"
+                    android:id="@+id/menu_edit_span"
+                    android:title="@string/set_text_color"/>
+
+                <item
+                    android:icon="@drawable/reset"
+                    android:id="@+id/menu_edit_force"
+                    android:title="@string/force_remove_notification_widget_flags"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

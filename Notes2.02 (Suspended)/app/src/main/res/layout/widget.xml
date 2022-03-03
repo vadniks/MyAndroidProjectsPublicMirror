@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:divider="@android:drawable/divider_horizontal_dark"
+        android:showDividers="middle"
+        android:dividerPadding="1dp"
+        android:id="@+id/widgetHeader"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18sp"
+            android:lines="1"
+            android:layout_weight="1"
+            android:id="@+id/widgetTitle"
+            android:text="@string/title"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_weight="0"
+            android:id="@+id/changeNote"
+            android:background="@drawable/ch_note"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:src="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/widgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

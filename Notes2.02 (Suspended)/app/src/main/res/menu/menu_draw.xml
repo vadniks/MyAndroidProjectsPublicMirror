@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/save"
+        android:id="@+id/menu_draw_save"
+        android:title="@string/save"/>
+
+    <item
+        android:icon="@drawable/options"
+        android:id="@+id/menu_draw_options"
+        android:title="@string/options"/>
+
+    <item
+        android:icon="@drawable/delete"
+        android:id="@+id/menu_draw_delete"
+        android:title="@string/delete"/>
+
+</menu>

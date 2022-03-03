@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimary2">#FF212121</color>
+<!--    <color name="colorPrimaryDark2">#FF000000</color>-->
+    <color name="colorAccent2">#FF80CBC4</color>
+
+    <color name="colorPrimaryDark2">@color/colBlack</color>
+
+    <color name="colorLight">#616161</color>
+    <color name="darkBackground">#FF303030</color>
+<!--    <color name="darkThemeBackground">#121212</color>-->
+
+    <color name="darkThemeBackground">@color/colBlack</color>
+
+    <color name="colWhite">#ffffffff</color>
+    <color name="colRed">#ffff0000</color>
+    <color name="colBlue">#1500ff</color>
+    <color name="colYellow">#fffa00</color>
+    <color name="colBlack">#000000</color>
+    <color name="colOrange">#FF6F00</color>
+    <color name="colGreen">#00ff15</color>
+    <color name="colGrey">#839183</color>
+    <color name="colCyan">#00FFFF</color>
+    <color name="colBrown">#7E3A1C</color>
+</resources>

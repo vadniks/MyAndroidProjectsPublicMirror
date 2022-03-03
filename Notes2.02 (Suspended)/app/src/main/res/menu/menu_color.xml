@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2018-2020 Vad Nik (http://github.com/vadniks). All rights reserved.
+**
+** This code is a part of proprietary software.
+** Usage, distribution, redistribution, modifying 
+** and/or commercial use of this code,
+** without author's written permission, are strongly prohibited. 
+*/
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/select_color">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:title="@string/orange"
+                    android:icon="@color/colOrange"
+                    android:id="@+id/menu_color_orange"/>
+
+                <item
+                    android:title="@string/red"
+                    android:icon="@color/colRed"
+                    android:id="@+id/menu_color_red"/>
+
+                <item
+                    android:title="@string/blue"
+                    android:icon="@color/colBlue"
+                    android:id="@+id/menu_color_blue"/>
+
+                <item
+                    android:title="@string/yellow"
+                    android:icon="@color/colYellow"
+                    android:id="@+id/menu_color_yellow"/>
+
+                <item
+                    android:title="@string/green"
+                    android:icon="@color/colGreen"
+                    android:id="@+id/menu_color_green"/>
+
+                <item
+                    android:title="@string/grey"
+                    android:icon="@color/colGrey"
+                    android:id="@+id/menu_color_grey"/>
+
+                <item
+                    android:title="@string/reset"
+                    android:id="@+id/menu_color_reset"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
